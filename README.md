@@ -11,17 +11,17 @@ in the implementation. The versions used are 1.11.3 1.5.3, 1.1.0 respectively. T
 To use the files, simply run RRT.py or RRT_Star.py or Informed_RRT_Star.py. The number of iterations is initially set to 1000. After a few seconds matplotlib shows the run of the algorithm and the cost of the best path is plotted against the iterations. Note that, since the algorithms are probabilistic, a few runs may be necessary to find the path in the three implementations. It is advised to open the files and play around with the parameters, especially the step-size (epsilon) parameter and the number of iterations.
 
 # Files
-Informed_RRT_Star.py
-Node.py
-plot_RRT.py
-RRT.py
-RRT_Functions.py
-RRT_Node.py
-RRT_Plot.py
-RRT_Star.py
-RRT_Star_Functions.py
-RRT_Star_Procedure.py
-Thesis_Images
+Informed_RRT_Star.py,
+Node.py,
+plot_RRT.py,
+RRT.py,
+RRT_Functions.py,
+RRT_Node.py,
+RRT_Plot.py,
+RRT_Star.py,
+RRT_Star_Functions.py,
+RRT_Star_Procedure.py,
+Thesis_Images.
 
 # Known Problems
 The obstacles are generated randomly (The number generated is set to find initially) and one could spawn on the goal area. This could make it difficult for the tree to find the goal area. 
