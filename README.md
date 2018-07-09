@@ -24,7 +24,7 @@ RRT_Star_Procedure.py,
 Thesis_Images.
 
 # Known Problems
-The obstacles are generated randomly (The number generated is set to find initially) and one could spawn on the goal area. This could make it difficult for the tree to find the goal area. 
+The obstacles are generated randomly (The number generated is set to five initially) and one could spawn on the goal area. This could make it difficult for the tree to find the goal area. 
 
 # Credits
 This code is made by Bryan Cardenas Guevara for the Artificial Intelligence Bachelor thesis at Utrecht University, The Netherlands. 
