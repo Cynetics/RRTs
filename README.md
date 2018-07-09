@@ -1,5 +1,5 @@
 # RRTs
-A Bachelor Thesis impelmentation of RRT, RRT* and Informed RRT*.
+A Bachelor Thesis impelmentation of RRT, RRT* and Informed RRT*. The Thesis_Images folder contains all the images that were made in Photoshop. These images are free for use.
 # Configuration
 The Algorithms are implemented in Python using the numpy, matplotlib and scipy libraries. The base-line algorithms (RRT, RRT* and Informed RRT*) are implemented in Informed_RRT_Star.py, RRT_Star.py and RRT.py respectively. The functions that these algorithms share are separated in other files.
 
@@ -21,6 +21,7 @@ RRT_Plot.py
 RRT_Star.py
 RRT_Star_Functions.py
 RRT_Star_Procedure.py
+Thesis_Images
 
 # Known Problems
 The obstacles are generated randomly (The number generated is set to find initially) and one could spawn on the goal area. This could make it difficult for the tree to find the goal area. 
